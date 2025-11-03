@@ -23,12 +23,7 @@ But to get the runner script to work, needed to move this up a level, and edit s
 
 Verify your project structure looks like this:
 
-adk-bootcamp-python/
-├── .env                  <-- Your environment file
-├── run_programmatically.py <-- Your execution script is here
-└── my_first_agent/         <-- Your agent is a package inside
-    ├── __init__.py
-    └── agent.py
+![file directory structure](/runner-script-directory-diagram.png)
 
 If your structure is correct, your import statement inside run_programmatically.py must correctly reference the package:
 
